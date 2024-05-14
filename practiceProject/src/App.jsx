@@ -2,6 +2,8 @@ import { useState } from "react";
 import Hello from "./components/Hello";
 import Fruits from "./components/Fruits";
 import ConditionalComponent from "./components/ConditionalComponent";
+import Message from "./components/Message";
+import Counter from "./components/Counter";
 
 function App() {
   const person = {
@@ -14,7 +16,8 @@ function App() {
     <>
       <div>
         {/*<Hello person={person}></Hello> */}
-        <Fruits></Fruits>
+        {/* <Fruits></Fruits> */}
+        <Counter></Counter>
       </div>
     </>
   );
